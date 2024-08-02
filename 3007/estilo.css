@@ -27,6 +27,12 @@ h2{
 
 }
 
+a{
+    text-align: center;
+
+} 
+
+
 img{
 
     display: block;
@@ -41,5 +47,21 @@ img{
 
 p{
     font-family: "Poppins", sans-serif;
-    margin: 0;
+}
+
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px   ;
+    padding: 10px 0;
+    background-color: black;
+}
+a{
+    text-shadow: 0 0 10px #fff;
+    font-size: 1.4rem;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
 }
