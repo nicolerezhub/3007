@@ -2,7 +2,12 @@
 
 body{
     font-family: "Poppins", sans-serif;
-    background: #533C73;
+    background: #8c1eff;
+    background-color: #1c0b2b;
+    background-image: url(fotos/press.gif);
+    height: 500px;
+    text-shadow: white;
+   
 }
 
 #eu{
@@ -10,12 +15,41 @@ body{
         border-radius: 10px;
         display: grid;
         place-items: center;
+        width: 500px;
 
 }
-#info{
-    border: 3px solid #F2BD1D;
-    width: ;
-    height: flex;
-    margin: 0 auto;
+img{
+
+    width: 50px;
+    display: grid;
+
+}
+#all{
+    height: 200px;
+    width: 80%;
+    border:solid 10px;
+    margin: 300px;
+    display: flex;
+    align-items: center;
+    
+    background-color: #F27F3D ;
+    
+}
+
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: #F27F3D;
+    color: white;
+    width: 2000px;
+    height: 100px;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px   ;
+    padding: 10px 0;
 
 }
